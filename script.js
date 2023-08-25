@@ -33,6 +33,5 @@ filter.addEventListener("click",(e)=>{
     if ( e.target && e.target.className!=="filters" && e.target.matches('div')) {
         document.querySelector(".bold").classList.remove("bold");
         e.target.className = "bold";
-        console.log(e.target.className);
     }
 })
