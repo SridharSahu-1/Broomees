@@ -108,7 +108,7 @@
 
 .hero_img {
   width: 100%;
-  height: calc(100vh - 120px);
+  height: 570px;
 }
 
 
@@ -425,7 +425,8 @@ height: 150px;
 .product-cards img {
   position: absolute;
   bottom: -50px;
-  width: 100%;
+  /* width: 100%; */
+  height: 400px;
 }
 
 .client {
@@ -435,7 +436,6 @@ height: 150px;
 }
 
 .happy-client {
-  height: 100vh;
   display: flex;
   background-color: rgba(242, 247, 246, 0.913);
   flex-direction: column;
@@ -463,6 +463,7 @@ height: 150px;
   align-items: center;
   gap: 1.5rem;
   position: relative;
+  margin-bottom: 200px;
 }
 .happy_client1_red_star {
   width: 3rem;
