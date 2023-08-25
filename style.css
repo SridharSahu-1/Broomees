@@ -167,6 +167,7 @@ count2 {
   background-color: rgb(240, 245, 246);
   flex-direction: column;
   gap: 20px;
+  width: 100%;
 }
 
 .trusted_companies {
