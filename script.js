@@ -35,3 +35,16 @@ filter.addEventListener("click",(e)=>{
         e.target.className = "bold";
     }
 })
+
+
+
+
+
+let ham_btn = document.querySelector(".fa-bars-staggered");
+let ham_active = document.querySelector(".hamburger");
+ham_btn.addEventListener("click",()=>{
+    ham_active.classList.toggle("hamburger_active");
+})
+
+
+  
