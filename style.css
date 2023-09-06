@@ -880,6 +880,16 @@ footer {
   .hamburger_active li a {
     font-size: 13px;
   }
+  .happy-client1 {
+    margin: 20px;
+  }
+  .happy_client1_red_star {
+    right: -48px;
+  }
+  .hamburger_active {
+    width: 30%;
+    height: 41vh;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -915,3 +925,5 @@ footer {
     height: 69vh;
   }
 }
+
+
