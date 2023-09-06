@@ -42,6 +42,11 @@ body {
   color: inherit;
 }
 
+.currPage{
+  text-decoration: underline;
+  font-weight: 700;
+}
+
 .nav_icons {
   display: flex;
   gap: 30px;
@@ -415,6 +420,7 @@ body {
 
 .bold {
   font-weight: 700;
+  text-decoration: underline;
 }
 
 .filters div {
